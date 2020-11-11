@@ -2,7 +2,7 @@ const path = require('path')
 const express = require('express')
 
 //defines paths for expresss config
-pubilDirectoryPath = path.join(__dirname, '../public')
+const pubilDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname,'../views_1')
 const app = express()
 
